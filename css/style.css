@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    color: #ffff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 20px 25px;
+}
+
+.nav > h2{
+    margin-right: auto;
+    color: #61DAFB;
+}
+
+.react--img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.react--img:hover{
+    cursor: pointer;
+}
+.main{
+    margin-top: 0;
+    padding: 40px 30px;
+    height: 100vh;
+    background-color: #282D35;
+    /* background-image: url(../image/react.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right 25%;  */
+}
+
+.main > h1{
+    letter-spacing: -0.05em;
+}
+
+.main > ul li{
+    padding-block: 8px;
+}
+
+.main > ul li::marker {
+    color: #61DAFB;
+    font-size: 1.5em;
+  }
+  
+
+  /* BREAK POINT */
+  @media (max-width:470px) {
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    
+    .nav > h2{
+        margin: 10px 0 15px 0;
+        color: #61DAFB;
+    }
+
+    .nav > h3{
+        margin: 10px 0;
+    }
+  }
